@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Small Shop Inventory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Small Shop Inventory</h1>
+    <p>Cloud Computing Fundamentals (CNS 303) - Lab 03 | PaaS deployment on Netlify</p>
+  </header>
+
+  <main>
+    <section class="cards">
+      <div class="card"><span id="totalProducts">0</span><small>Products</small></div>
+      <div class="card"><span id="totalStock">0</span><small>Total Units</small></div>
+      <div class="card"><span id="lowStock">0</span><small>Low Stock</small></div>
+    </section>
+
+    <section>
+      <h2>Products</h2>
+      <table>
+        <thead>
+          <tr><th>Product</th><th>Category</th><th>Price (PKR)</th><th>Stock</th></tr>
+        </thead>
+        <tbody id="productTable"></tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by Rehmat | UIT Karachi | Deployed with GitHub + Netlify</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
